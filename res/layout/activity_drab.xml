@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/boringtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greetings" />
+
+    <Button
+        android:id="@+id/EasyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="42dp"
+        android:text="Easy Button" />
+
+    <RatingBar
+        android:id="@+id/myStars"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EasyButton"
+        android:layout_centerHorizontal="true" />
+
+    <AnalogClock
+        android:id="@+id/phaseClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boringtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>
