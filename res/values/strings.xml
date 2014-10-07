@@ -3,5 +3,6 @@
 
     <string name="app_name">How are you</string>
     <string name="greetings">Hi peeps</string>
-
+    <string name="otherVariable">more words</string>
+    
 </resources>
